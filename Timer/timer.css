@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+html , body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color:chartreuse
+}
+.tabs{
+    float:center;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom:20px;
+    overflow:hidden;
+    border-radius:5px;
+    background-color:#f1f1f1d0;
+}
+.tabs button{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    outline:none;
+    padding:10px;
+    cursor:pointer;
+    transition:all 0.3s;
+    font-size:20px;
+    border-radius:4px;
+    font-weight:bolder;
+    font-size:large;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.tabs button:hover{
+    color:black;
+    background-color: #ffffff60;
+}
+.tabs button:active{
+    background-color:#26803590;
+}
+.tabs button.opened{
+    background-color: #ffffffa0;
+}
+#countDownTimerContainer{
+    background-color: #f1f1f1d0;
+    margin-top:10px;
+    border-radius:10px;
+    padding:20px 0 20px 0;
+    text-align:center;
+}
+#cdt-input-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cdt-input{
+    background-color: #ffffffa0;
+    border:none;
+    border-radius:5px;
+    font-size:5vmin;
+    margin:10px;
+    text-align:center;
+    width:15vmin;
+    height:15vmin;
+    font-weight:bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.timer-cdt{
+    justify-self: center;
+    align-self: center;
+    border:none;
+    background-color: #ffffff00;
+    width:30px;
+    height:20px;
+}
+.semi{
+    font-size:6vmin;
+}
+#cdt-button-container{
+    margin-top:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn{
+    padding-top:5px;
+    border-radius: 5px;
+    width:15vmin;
+    margin-left:5px;
+    margin-right:5px;
+    border:none;
+    outline:none;
+    font-size:4vmin;
+    transition: all 0.3s;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.btn:hover{
+    background-color: rgb(202, 202, 202);
+}
+.btn:active{
+    transform: scale(0.9);
+}
+.btn-swc{
+    border-radius: 5px;
+    text-align:center;
+    padding-top:5px;
+    width:15vmin;
+    margin-left:5px;
+    margin-right:5px;
+    border:none;
+    outline:none;
+    font-size:4vmin;
+    transition: all 0.3s;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn-swc:hover{
+    background-color: rgb(202, 202, 202);
+}
+.btn-swc:active{
+    transform: scale(0.9);
+}
+#stopWatchContainer{
+    background-color: #f1f1f1d0;
+    margin-top:10px;
+    border-radius:10px;
+    padding:20px 0 20px 0;
+    text-align:center;
+}
+#show-time{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    font-size:5vmin;
+    margin:15px;
+    font-weight: bold;
+}

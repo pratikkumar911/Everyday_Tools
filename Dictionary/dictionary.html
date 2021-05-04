@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="dictionary.css">
+</head>
+
+<body>
+    <section class="input container">
+        <h2>Find any word :)</h2>
+        <div class="form__wrap">
+            <div class="input__wrap">
+                <input type="text" placeholder="Type a word" id="input">
+                <button id="search">Search</button>
+            </div>
+        </div>
+    </section>
+    <section class="data container">
+        <span class="loading">Loading...</span>
+        <p class ="phonetics"></p>
+        <p class="def"></p>
+        <div class="not__found"></div>
+    </section>
+    <script src="dictionary.js"></script>
+</body>
+</html>
